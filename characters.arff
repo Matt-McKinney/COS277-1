@@ -1,0 +1,24 @@
+@relation characters
+
+@attribute Race {Half-Orc,Human,Elf,Dwarf,Gnome,Halfling,Dragonborn,Half-Elf,Goblin}
+@attribute Class {Fighter,Barbarian,Rogue,Ranger,Paladin,Sorcerer,Cleric,Warlock,Wizard,Druid}
+@attribute Level numeric
+@attribute Alignment {LN,CN,NN,CG,LG,LE,NG}
+@attribute Play? {Yes,No}
+
+@data
+Half-Orc,Fighter,10,LN,Yes
+Human,Barbarian,8,CN,No
+Elf,Rogue,5,NN,No
+Dwarf,Ranger,7,CG,Yes
+Dwarf,Paladin,12,LG,No
+Elf,Sorcerer,3,CN,No
+Half-Orc,Cleric,14,LE,Yes
+Gnome,Fighter,5,LG,No
+Halfling,Warlock,1,NG,No
+Dragonborn,Wizard,9,CG,No
+Half-Elf,Ranger,1,NN,Yes
+Half-Elf,Fighter,7,CN,Yes
+Dragonborn,Ranger,15,NN,No
+Half-Orc,Druid,20,LN,Yes
+Goblin,Ranger,1,LN,Yes
